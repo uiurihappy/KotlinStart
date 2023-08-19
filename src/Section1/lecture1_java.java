@@ -1,12 +1,8 @@
 package Section1;
 
-class Person {
-	String name;
-
-	public Person(String name) {
-		this.name = name;
-	}
-}
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class lecture1_java {
 	public static void main(String[] args) {
@@ -16,6 +12,10 @@ public class lecture1_java {
 
 		Long number3 = 10L;
 		Person person = new Person("차윤범");
+		// 자바에서 final 키워드가 붙여지면 컬렉션 자체를 재정의하지 못하지만
+		// 추가, 삭제가 가능하다.
+		final List<Integer> numbers = Arrays.asList(1, 2);
+		numbers.add(4);
 		System.out.println(number1);
 	}
 }
