@@ -1,4 +1,6 @@
-package Section1;
+package Section1.lecture1;
+
+import Section1.Person
 
 fun main() {
     /**

@@ -1,6 +1,7 @@
-package Section1;
+package Section1.lecture1;
 
-import java.util.ArrayList;
+import Section1.Person;
+
 import java.util.Arrays;
 import java.util.List;
 
