@@ -2,7 +2,7 @@ package Section1.lecture3;
 
 import Section1.Person;
 
-public class lecture_java {
+public class lecture3_java {
 
 	public static void main(String[] args) {
 
