@@ -20,7 +20,7 @@ fun main() {
 
     print(startsWithA4(str))
 
-    var person = Person("공부하는 개발자")
+    var person = Person("공부하는 개발자", 100)
     startsWithA5(person.name)
 }
 

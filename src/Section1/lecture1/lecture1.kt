@@ -38,6 +38,6 @@ fun main() {
     number3 = null
 
     // 자바와 다르게 new를 사용하지 않고 객체 인스턴스 생성을 한다. 절대 new를 사용하지 않는다.
-    var person = Person("차윤범")
+    var person = Person("차윤범", 26)
 
 }
